@@ -2,8 +2,8 @@
 node_modules/
 dist/
 build/
-.env
-.env.*
+# .env
+# .env.*
 *.log
 
 # --- IDE va operatsion tizim ---
