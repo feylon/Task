@@ -1,0 +1,36 @@
+# --- Loyiha bo'yicha umumiy ---
+node_modules/
+dist/
+build/
+.env
+.env.*
+*.log
+
+# --- IDE va operatsion tizim ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+
+# --- Backend uchun maxsus ---
+# Fastify/Node.js loglari va temp fayllar
+npm-debug.log
+yarn-error.log
+dist/
+coverage/
+
+# --- Frontend uchun maxsus ---
+# Vite/React uchun
+dist/
+.output/
+.vercel/
+
+# --- Simulator uchun maxsus ---
+# Simulator ham Node.js asosida bo'lgani uchun 
+# yuqoridagi node_modules/ va dist/ qoidalari uni ham himoya qiladi.
+# Agar simulator ichida o'zining .env fayli bo'lsa, u ham .env qoidasi bilan yashiriladi.
+
+# --- Docker ---
+# Agar ma'lumotlar bazasi fayllari (volume) bo'lsa, ularni yuklamaslik kerak
+pgdata/
